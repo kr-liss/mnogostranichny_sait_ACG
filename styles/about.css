@@ -1,0 +1,186 @@
+.section {
+  background-image: url("../imgs/Firefly_\ bug\ flipping\ robots\ on\ black\ background\ 90873\ 1.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 996px;
+  position: relative;
+  margin: 0 auto;
+}
+.section .wrapper {
+  max-width: 1330px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.section .wrapper .btn {
+  background: #19d60f4a;
+  backdrop-filter: blur(4px);
+
+  padding: 10px 14px;
+  position: absolute;
+  position: relative;
+  cursor: pointer;
+}
+.section .wrapper .btn .text {
+  font-family: "DaysOne", monospace, sans-serif;
+}
+.section .wrapper .btn.contacts {
+  width: 233px;
+  height: 55px;
+  top: 560px;
+  left: 378px;
+  font-size: 26.94px;
+}
+.section .wrapper .btn.contacts .bottom {
+  width: 74px;
+  height: 19px;
+  bottom: -19px;
+  left: 40px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+.section .wrapper .btn.contacts .top {
+  width: 86px;
+  height: 25px;
+  top: -25px;
+  right: -20px;
+}
+.section .wrapper .btn.contacts .popup {
+  bottom: -54px;
+  left: 40px;
+  padding: 10px;
+  width: 266px;
+  display: flex;
+  justify-content: center;
+
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+.section .wrapper .btn.contacts .popup.show,
+.section .wrapper .btn.contacts .bottom.show {
+  opacity: 1;
+}
+.section .wrapper .btn.aboutus {
+  width: 258px;
+  top: 512px;
+  left: 976px;
+  font-size: 26.94px;
+  height: 55px;
+}
+
+.section .wrapper .btn.aboutus .bottom {
+  left: 0px;
+  bottom: -21px;
+
+  width: 104px;
+  height: 21px;
+}
+.section .wrapper .btn.aboutus .text {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.section .wrapper .btn.aboutus .text .arrow {
+  margin-left: 30px;
+}
+.section .wrapper .btn.creator {
+  width: 233px;
+  top: 210px;
+  left: 1000px;
+}
+.section .wrapper .btn.creator .popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 475px;
+  padding: 12px 0px;
+  top: -58px;
+  right: -40px;
+  font-size: 26.94px;
+}
+
+.section .wrapper .btn.contacts .popup,
+.section .wrapper .btn.creator .popup,
+.section .wrapper .btn.contacts .top,
+.section .wrapper .btn.contacts .bottom,
+.section .wrapper .btn.aboutus .bottom,
+.section .wrapper .btn.creator .left,
+.section .wrapper .btn.aboutus .popup,
+.section .wrapper .btn.creator .bottom {
+  font-family: "DaysOne", monospace, sans-serif;
+  color: white;
+  position: absolute;
+  background: #19d60f4a;
+  backdrop-filter: blur(4px);
+}
+.section .wrapper .btn.creator .left {
+  width: 18px;
+  height: 43px;
+  top: 0px;
+  left: -18px;
+}
+.section .wrapper .btn.creator .bottom {
+  width: 74px;
+  height: 19px;
+  bottom: -19px;
+  right: 0px;
+}
+
+.section .wrapper .btn .text,
+.popupText {
+  font-family: "DaysOne", monospace, sans-serif;
+  color: #ffffff;
+  font-size: 26.94px;
+  text-align: center;
+}
+.section .btn.creator .popup,
+.section .btn.creator .popup.popupText,
+.section .btn.aboutus .popup,
+.section .btn.aboutus .popup.popupText {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.section .btn.creator .popup.show,
+.section .btn.creator .popup.popupText.show,
+.section .btn.aboutus .popup.show,
+.section .btn.aboutus .popup.popupText.show {
+  opacity: 1;
+}
+
+.section .bgText.one {
+  width: 155px;
+  top: 72px;
+  left: 0px;
+}
+.section .bgText.two {
+  width: 155px;
+  top: 540px;
+  left: 0px;
+}
+.section .bgText.three {
+  width: 155px;
+  top: 830px;
+  left: 0px;
+}
+.section .bgText.four {
+  width: 155px;
+  top: 45px;
+  left: 658px;
+}
+.section .bgText.five {
+  width: 221px;
+  top: 44px;
+  left: 1010px;
+}
+.section .bgText.six {
+  width: 188px;
+  top: 524px;
+  left: 1164px;
+}
+.section .bgText.seven {
+  width: 188px;
+  top: 803px;
+  left: 1164px;
+}

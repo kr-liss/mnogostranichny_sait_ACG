@@ -1,0 +1,79 @@
+body {
+  background-color: #070709;
+}
+.section {
+  background-image: url("../imgs/Firefly_small\ bug\ flipping\ robots\ on\ black\ background\ 941146.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 98vh;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.section .wrapper {
+  position: relative;
+  max-width: 1330px;
+  height: 100%;
+  margin: auto;
+}
+.section .wrapper .Group7 {
+  position: absolute;
+  top: 241px;
+  left: 909px;
+}
+
+.section .wrapper .poster {
+  position: absolute;
+  border: 1px solid #0bdb15;
+  cursor: pointer;
+}
+
+.section .wrapper .poster.one {
+  top: 43px;
+  left: 667px;
+}
+.section .wrapper .poster.two {
+  top: 43.23px;
+  left: 928.5px;
+}
+.section .wrapper .poster.three {
+  top: 173px;
+  left: 667px;
+}
+.section .wrapper .poster.four {
+  top: 840px;
+  left: 725px;
+}
+.section .wrapper .poster.five {
+  top: 840px;
+  left: 995px;
+}
+/* Блюр заднего фона */
+.section.blurred {
+  filter: blur(8px);
+  transition: filter 0.5s ease;
+}
+
+/* Полноэкранное изображение */
+.fullscreen-poster {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 90vw;
+  max-height: 90vh;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0;
+  border: none !important; /* убираем border */
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* Активное состояние полноэкранного изображения */
+.fullscreen-poster.active {
+  transform: translate(-50%, -50%) scale(1);
+  width: 50%;
+  opacity: 1;
+  border: 0;
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: #101012;
+}
+.section {
+  position: relative;
+  padding-top: 50px;
+}
+.section .wrapper {
+  position: relative;
+  max-width: 1330px;
+  height: 100%;
+  margin: auto;
+}
+.section .wrapper .linksBtn {
+  top: 500px;
+}
+.section .wrapper .greenPart1 {
+  position: absolute;
+  top: 20px;
+  left: 110px;
+}
+.section .wrapper .greenPart2 {
+  position: absolute;
+  top: 95px;
+  left: 1050px;
+}
+.section .wrapper .greenPart3 {
+  position: absolute;
+  top: 596px;
+  left: 796px;
+}
+.section .wrapper .greenPart4 {
+  position: absolute;
+  top: 741px;
+  left: 188px;
+}
+.section .wrapper .page {
+  position: absolute;
+  left: 71px;
+  top: 140px;
+  cursor: pointer;
+}
+.section .wrapper .page img {
+  height: 596px;
+}
+
+.section .wrapper .bgText {
+  position: absolute;
+  width: 188px;
+  top: 172px;
+  left: 993px;
+}

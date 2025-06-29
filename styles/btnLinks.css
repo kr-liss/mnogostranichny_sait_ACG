@@ -1,0 +1,49 @@
+.section .linksBtn {
+  padding: 0px 20px;
+  height: 55px;
+  top: 545px;
+  left: 985px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  cursor: pointer;
+}
+.section .linksBtn .links {
+  position: absolute;
+  top: 55px;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.section .linksBtn .links.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.section .linksBtn .links a {
+  color: white;
+  font-family: "DaysOne", monospace, sans-serif;
+  text-decoration: none;
+  font-size: 26.94px;
+  padding: 10px 20px;
+}
+
+.section .linksBtn .bottom {
+  width: 104px;
+  height: 21px;
+  bottom: -21px;
+  left: 0px;
+  transition: opacity 0.3s ease;
+}
+.section .linksBtn .bottom.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.section .linksBtn .text {
+  color: #ffffff;
+  font-family: "DaysOne", monospace, sans-serif;
+  font-size: 26.94px;
+}

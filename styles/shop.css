@@ -1,0 +1,166 @@
+body {
+  background-color: #101012;
+}
+.section {
+  position: relative;
+  padding-top: 50px;
+}
+.section .wrapper {
+  position: relative;
+  max-width: 1330px;
+  height: 100%;
+  margin: auto;
+}
+.section .wrapper .linksBtn {
+  top: 500px;
+}
+.section .wrapper .shopItem,
+.section .wrapper .shopItem .price,
+.section .wrapper .shopItem .text {
+  position: absolute;
+}
+.section .wrapper .shopItem .text {
+  cursor: pointer;
+  position: relative; /* чтобы dropdown позиционировался относительно */
+  font-size: 14px;
+  background: #19d60f4a;
+  backdrop-filter: blur(10.476190567016602px);
+  padding: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.section .wrapper .shopItem .text .dropdown {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 14px;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+  background: #19d60f4a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.section .wrapper .shopItem .text.active .dropdown {
+  max-height: 400px; /* подгоните под ваш контент */
+  opacity: 1;
+  z-index: 1;
+}
+.section .wrapper .shopItem .price {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+  height: 55px;
+
+  font-size: 24px;
+  background: #19d60f4a;
+  backdrop-filter: blur(10.476190567016602px);
+}
+.section .wrapper .linksBtn {
+  gap: 100px;
+}
+.section .wrapper .shopItem.one .text {
+  right: -150px;
+  bottom: 45px;
+  width: 238px;
+}
+.section .wrapper .shopItem.one .price {
+  bottom: -5px;
+  left: -32px;
+}
+.section .wrapper .shopItem.one {
+  left: 66px;
+  top: 64px;
+}
+.section .wrapper .shopItem.two {
+  left: 470px;
+  top: 64px;
+}
+.section .wrapper .shopItem.two .price {
+  bottom: 19px;
+  left: 25px;
+}
+.section .wrapper .shopItem.two .text {
+  right: -150px;
+  bottom: 45px;
+  width: 160px;
+}
+.section .wrapper .shopItem.two .text .dropdown {
+  top: 28px;
+}
+
+.section .wrapper .shopItem.three {
+  left: 873px;
+  top: 64px;
+}
+.section .wrapper .shopItem.three .price {
+  bottom: -3px;
+  right: -40px;
+}
+.section .wrapper .shopItem.three .text {
+  left: -40px;
+  bottom: 45px;
+  width: 212px;
+}
+.section .wrapper .shopItem.three .text .dropdown {
+  top: -124px;
+  width: 363px;
+}
+
+.section .wrapper .shopItem.four {
+  left: 66px;
+  top: 477px;
+}
+.section .wrapper .shopItem.four .price {
+  bottom: -0px;
+  left: -36px;
+}
+
+.section .wrapper .shopItem.four .text {
+  right: -150px;
+  bottom: 45px;
+  width: 238px;
+}
+.section .wrapper .shopItem.four .text .dropdown {
+  top: -180px;
+}
+
+.section .wrapper .shopItem.five {
+  left: 470px;
+  top: 477px;
+}
+.section .wrapper .shopItem.five .price {
+  bottom: 48px;
+  left: 40px;
+}
+.section .wrapper .shopItem.five .text {
+  right: -200px;
+  bottom: 45px;
+  width: 93px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.section .wrapper .shopItem.five .text .dropdown {
+  top: -124px;
+  width: 383px;
+}
+.section .wrapper .project_link {
+  position: absolute;
+
+  color: white;
+  font-size: 14px;
+}
+.section .wrapper .project_link.one {
+  top: 740px;
+  left: 874px;
+}
+.section .wrapper .project_link.two {
+  top: 784px;
+  left: 874px;
+}
